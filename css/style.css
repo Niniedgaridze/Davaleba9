@@ -1,0 +1,23 @@
+.img{
+    max-width: 1250px;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("../stars.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: blue;
+    font-size: 20px;
+    transition: all .7s linear;
+}
+p:hover{
+    color: blueviolet;
+    text-shadow: 5px 4px 5px pink;
+    cursor: pointer;
+}
