@@ -2,20 +2,22 @@
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 header{
     width: 100%;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
 }
 .logo{
     width: 122px;
-    height: 95px;
+    /* height: 95px; */
     margin-left: 140px;
     margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 nav{
@@ -36,4 +38,97 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.section2{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid goldenrod; */
+    padding-top: 40px;
+    
+}
+
+h3{
+    font-size: 30px;
+    color: #707070;
+    padding-bottom: 40px;
+}
+.cards{
+    width: 100%;
+    /* border: 2px solid plum; */
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 30%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    box-shadow: 5px 5px  20px #747272;
+}
+.man{
+    width: 100%;
+}
+
+h4{
+    font-size: 20px;
+    color: #707070;
+    padding-left: 20px;
+}
+.text1{
+    color: #707070;
+    padding-left: 20px;
+}
+.more{
+    font-size: 18px;
+    color: #707070;
+    font-weight: bolder;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+
+.load{
+    font-size: 20px;
+    color: #707070;
+    width: 145px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+footer{
+    max-width: 1920px;
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid blue; */
+    background-color: #2e2e2e;
+    margin-top: 40px;
+    display: flex;
+}
+.footeritems{
+    width: 920px;
+    display: flex;
+    gap: 325px;
+    align-items: center;
+    
+}
+.footerdiv{
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    
+}
+span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.fa-brands{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 50px;
+
 }
