@@ -132,3 +132,34 @@ span{
     padding: 50px;
 
 }
+
+@media screen and (max-width: 330px) {
+    header{
+        width: 100%;
+        flex-direction: column;
+    }
+    .logo{
+        /* width: 122px; */
+        margin: 0 auto;
+    }
+    .section1{
+        max-width: 320px;
+        width: 100%;
+        height: 253px;
+        margin-left: 20px;
+        /* margin: 0 auto; */
+        /* margin-top: 20px; */
+        background-image: url("../img/responsiveimg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+    h3{
+        font-size: 15px;
+        color: #707070;
+        padding-left: 80px;
+        padding-bottom: 40px;
+    }
+   
+  
+}
